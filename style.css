@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    overflow: hidden;
+    background-image: url(img/back.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: center;
+  }
+  
+  .title {
+    color: rgb(232, 232, 240);
+    font-size: 30px;
+    position: absolute;
+    top:50px;
+    width: 100%;
+  }
+  
+  .title * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-top:15px;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    flex-wrap: wrap;
+  }
+  
+  .planet {
+    margin: 15px;
+  }
+  
+  .planet img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 100%;
+  }
+  
+  .planet p {
+    color: cyan;
+    text-shadow: 2px 2px #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.01rem;
+  }
+  
+  
+  .title input {
+    height: 23px;
+    padding: 6px;
+    border-radius: 20px;
+  }
+  
+  #btn {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  
+  .allignment{
+    display: flex;
+  }
